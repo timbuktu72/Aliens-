@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Orbitron', 'Noto Sans TC', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 30px;
+  /* position: relative; */
+
+}
+.intro {
+height: 95vh;
+
+background-color: black;
+overflow: hidden;
+}
+
+.text {
+position: relative;
+top: 100px;
+
+}
+
+
+.logo {
+
+ position: absolute;
+ top: 100px; 
+left: 150px;
+}
+
+
+.box-content-one-sub {
+  text-align: center;
+  width: 100%;
+  padding-top: 160px;
+  color: white;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 52px;
+  text-shadow: 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 0px 20px rgba(15, 206, 54, 0);
+  animation-name: fadeOut;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+
+}
+
+.box-content-two-sub {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  color: white;
+  display: block;
+  letter-spacing: 5px;
+  font-size: 49px;
+  text-shadow: 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 0px 20px rgba(15, 206, 54, 0);
+  animation-name: fadeOut;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+
+}
+
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    transform: scale3d(.85, .85, 1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+
+  }
+}
